@@ -1,7 +1,5 @@
-[gd_scene load_steps=12 format=3 uid="uid://dum0vq7fy15st"]
+[gd_scene load_steps=10 format=3 uid="uid://dum0vq7fy15st"]
 
-[ext_resource type="Script" path="res://root1.gd" id="1_027t5"]
-[ext_resource type="FontFile" uid="uid://0jk2p2kfmllu" path="res://fonts/Hyperspace Bold.otf" id="2_601f3"]
 [ext_resource type="Script" path="res://player2.gd" id="3_hurv8"]
 [ext_resource type="PackedScene" uid="uid://dcn4soippejj5" path="res://bullet.tscn" id="4_w5fy6"]
 [ext_resource type="AudioStream" uid="uid://bq4kjn4r61ps2" path="res://sounds/jet.wav" id="5_ee1yw"]
@@ -15,8 +13,6 @@
 [sub_resource type="CanvasTexture" id="CanvasTexture_7xkkn"]
 
 [node name="root" type="Node2D"]
-script = ExtResource("1_027t5")
-custom_font = ExtResource("2_601f3")
 
 [node name="player" type="RigidBody2D" parent="." node_paths=PackedStringArray("bullet_spawn")]
 position = Vector2(441, 640)

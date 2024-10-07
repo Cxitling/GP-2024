@@ -1,6 +1,5 @@
-[gd_scene load_steps=10 format=3 uid="uid://betoa56tlk8tg"]
+[gd_scene load_steps=9 format=3 uid="uid://betoa56tlk8tg"]
 
-[ext_resource type="Script" path="res://bugzap.gd" id="1_s2q5l"]
 [ext_resource type="Script" path="res://bug_player.gd" id="1_vqb0a"]
 [ext_resource type="PackedScene" uid="uid://nb8daasaeu3i" path="res://explosion.tscn" id="2_rwge8"]
 [ext_resource type="PackedScene" uid="uid://b26mblvmunn4a" path="res://bug.tscn" id="4_k6dp0"]
@@ -17,7 +16,7 @@ size = Vector2(10, 30)
 size = Vector2(16, 623)
 
 [node name="bugzap" type="Node2D"]
-script = ExtResource("1_s2q5l")
+position = Vector2(402, 15)
 
 [node name="player" type="CharacterBody2D" parent="."]
 position = Vector2(464, 730)

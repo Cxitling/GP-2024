@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://3jwmo8ch7loo"]
+
+[ext_resource type="Texture2D" uid="uid://bliecseamkfx4" path="res://vecteezy_alien-space-planet-landscape-with-purple-rocks_20597858.jpg" id="1_nd7j3"]
+[ext_resource type="Script" path="res://SHIP.gd" id="2_p2fhq"]
+[ext_resource type="Texture2D" uid="uid://ccgn02t8b1bjf" path="res://spaceShips_004.png" id="3_htn8u"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Background" type="ParallaxBackground" parent="."]
+
+[node name="VecteezyAlien-space-planet-landscape-with-purple-rocks20597858" type="Sprite2D" parent="Background"]
+position = Vector2(575, 326)
+texture = ExtResource("1_nd7j3")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("2_p2fhq")
+
+[node name="SpaceShips004" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(561, 590)
+texture = ExtResource("3_htn8u")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
