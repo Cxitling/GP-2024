@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://eu5p2ruausoj"]
+
+[ext_resource type="Script" uid="uid://c6t77b0cfl1j6" path="res://node_2d.gd" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_wtcfe")
+
+[node name="HSlider" type="HSlider" parent="."]
+offset_left = 99.0
+offset_top = 81.0
+offset_right = 329.0
+offset_bottom = 128.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 6.0
+offset_top = 41.0
+offset_right = 93.0
+offset_bottom = 79.0
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 2.0
+offset_top = 81.0
+offset_right = 99.0
+offset_bottom = 125.0
+
+[node name="HSlider2" type="HSlider" parent="."]
+offset_left = 100.0
+offset_top = 39.0
+offset_right = 332.0
+offset_bottom = 77.0
